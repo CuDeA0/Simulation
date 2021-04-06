@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.19)
 project(generator VERSION 0.0.1 LANGUAGES CXX DESCRIPTION "Default setup for cmake c++ project")
 
-add_subdirectory(src)
+add_subdirectory(actor)
 
 if(${CMAKE_BUILD_TYPE} STREQUAL "bench")
     add_subdirectory(bench)
